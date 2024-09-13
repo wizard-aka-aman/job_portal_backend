@@ -13,7 +13,9 @@ const app = express();
 dotenv.config({ path: "./config/config.env" }); 
 
 app.use(cors({
-    origin :"https://job-portal-backend-uz7u.onrender.com",
+    origin :"https://job-portal-frontend-8iif.onrender.com
+
+",
     methods: ['POST' , 'GET' , 'DELETE' , 'PUT'],
     credentials:true
 }))
